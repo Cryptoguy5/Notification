@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .main {
+            height: 30%;
+            width: 60%;
+            background-color: blueviolet;
+            border-radius: 10px;
+        }
+
+        .top {
+            height: 25%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(166, 122, 206);
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .bottom {
+            padding: 25px;
+        }
+
+        img {
+            height: 75%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .icon {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: rgba(62, 20, 79, 0.63);
+        }
+        
+        p {
+            color: rgba(46, 4, 65, 0.653);
+        }
+
+        @media (max-width: 680px) {
+            .main {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="top">
+        <div class="icon">
+         <img src="./amazon_old_app_icon_graphic_desi.format-webp.width-2880_MqT1x49wcPcPIIG8.webp" alt="Amazon">
+         <h2>Amazon</h2>
+        </div>
+        <p class="end">Now</p>
+       </div>
+       <div class="bottom">
+         <h2>"Linon Sinclair Executive Office Chair" is still in your cart. Check out now.</h2>
+          <p>Press for more.</p>
+      </div>
+    </div>
+</body>
+</html>
